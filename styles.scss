@@ -1,6 +1,6 @@
 $firstColor: #ffffff;
 $secondColor: #ffcfcf;
-$paddingLeft: 30px;
+/*$paddingLeft: 30px;*/
 $fontSize: 0.75rem;
 
 html,
@@ -33,21 +33,22 @@ body {
         min-width: 600px;
         background-color: $secondColor;
 
+        > * {
+            padding-left: 30px;
+        }
+
         h1 {
             font-size: 62px;
             -webkit-margin-before: 0;
             padding-top: 40px;
-            padding-left: $paddingLeft;
         }
 
         img {
-            padding-left: $paddingLeft;
             height: 350px;
             width: 550px;
         }
 
         p {
-            padding-left: $paddingLeft;
             width: 55%;
             min-width: 550px;
             font-size: $fontSize;
@@ -55,7 +56,6 @@ body {
 
         a {
             color: inherit;
-            padding-left: $paddingLeft;
             text-decoration: none;
             font-size: $fontSize;
         }
@@ -64,12 +64,12 @@ body {
             text-decoration: underline;
         }
 
-        video {
+        /*video {
             padding-left: $paddingLeft;
-        }
+        }*/
 
         ul {
-            padding-left: $paddingLeft;
+            /*padding-left: $paddingLeft;*/
 
             li {
                 font-size: 0.85rem;
